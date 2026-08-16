@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemental Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>Movie Review</h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="movie-details">
+
+    <img src="images/elemental.jpg" alt="Elemental">
+
+    <div class="movie-info">
+        <h2>Elemental</h2>
+
+        <p class="rating">★★★★☆</p>
+
+        <p>
+            In Element City, residents made of fire, water, earth, and air live together, although they generally remain separated by their differences.
+            Ember, a passionate young fire resident, meets Wade, a kind and emotional water resident.
+            Their unexpected relationship challenges Ember's beliefs about life, family expectations, and whether people from completely different worlds can truly connect.
+        </p>
+
+        <p><strong>Genre:</strong> Animation, Comdey, Romance</p>
+
+        <p><strong>Release Year:</strong> 2023</p>
+
+        <p><strong>Director:</strong> Peter Sohn</p>
+    </div>
+
+</section>
+
+<section class="review-section">
+
+    <h2>Movie Review</h2>
+
+    <div class="rating-box">
+        <h3>Our Rating</h3>
+        <p class="stars">★★★★☆</p>
+        <p>4/5</p>
+    </div>
+
+    <div class="review">
+        <h3>Our Review</h3>
+        <p>
+            Elemental is a colorful and heartfelt animated film about
+            friendship, family expectations, cultural differences, and
+            finding connections in unexpected places.
+        </p>
+    </div>
+
+    <div class="write-review">
+        <h3>Write a Review</h3>
+
+        <form id= "reviewForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="rating">Your Rating</label>
+            <select id="rating">
+                <option>★★★★★ - 5/5</option>
+                <option>★★★★☆ - 4/5</option>
+                <option>★★★☆☆ - 3/5</option>
+                <option>★★☆☆☆ - 2/5</option>
+                <option>★☆☆☆☆ - 1/5</option>
+            </select>
+
+            <label for="review">Your Review</label>
+            <textarea id="review" rows="5" placeholder="Write your review here..."></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+        <div id= "submittedReviews"></div>
+    </div>
+
+</section>
+
+<a href="movies.html" class="back-btn">← Back to Movies</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>

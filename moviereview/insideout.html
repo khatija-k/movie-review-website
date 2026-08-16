@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside Out 2 Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>Movie Review</h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="movie-details">
+
+    <img src="images/insideout.jpg" alt="insideout">
+
+    <div class="movie-info">
+        <h2>Inside Out 2</h2>
+
+        <p class="rating">★★★★☆</p>
+
+        <p>
+           Riley is now a teenager, and her emotions are thrown into chaos when new emotions arrive at Headquarters.
+           Anxiety, Envy, Ennui, and Embarrassment join Joy, Sadness, Anger, Fear, and Disgust.
+           As Riley tries to fit in with her new friends and understand herself, her emotions struggle to guide her through the challenges of growing up. 
+        </p>
+
+        <p><strong>Genre:</strong> Animation, Adventure, Comdey</p>
+
+        <p><strong>Release Year:</strong> 2024</p>
+
+        <p><strong>Director:</strong> Kelsey Mann</p>
+    </div>
+
+</section>
+
+<section class="review-section">
+
+    <h2>Movie Review</h2>
+
+    <div class="rating-box">
+        <h3>Our Rating</h3>
+        <p class="stars">★★★★☆</p>
+        <p>4/5</p>
+    </div>
+
+    <div class="review">
+        <h3>Our Review</h3>
+        <p>
+            Inside Out 2 explores the challenges of growing up as Riley
+            experiences new emotions during her teenage years, combining
+            humor and emotion with an insightful story about identity.
+        </p>
+    </div>
+
+    <div class="write-review">
+        <h3>Write a Review</h3>
+
+        <form id= "reviewForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="rating">Your Rating</label>
+            <select id="rating">
+                <option>★★★★★ - 5/5</option>
+                <option>★★★★☆ - 4/5</option>
+                <option>★★★☆☆ - 3/5</option>
+                <option>★★☆☆☆ - 2/5</option>
+                <option>★☆☆☆☆ - 1/5</option>
+            </select>
+
+            <label for="review">Your Review</label>
+            <textarea id="review" rows="5" placeholder="Write your review here..."></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+        <div id= "submittedReviews"></div>
+    </div>
+
+</section>
+
+<a href="movies.html" class="back-btn">← Back to Movies</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>

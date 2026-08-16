@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>Movie Review</h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="movie-details">
+
+    <img src="images/inception.jpg" alt="Inception">
+
+    <div class="movie-info">
+        <h2>Inception</h2>
+
+        <p class="rating">★★★★★</p>
+
+        <p>
+            Dom Cobb is a skilled thief who enters people's dreams to steal valuable information from their subconscious.
+            He is offered a chance to return to his children if he can successfully perform an unusual task called inception, planting an idea inside someone's mind.
+            As the mission progresses, the boundaries between dreams and reality become increasingly difficult to distinguish.
+        </p>
+
+        <p><strong>Genre:</strong> Sci-Fi, Action, Thiller</p>
+
+        <p><strong>Release Year:</strong> 2010</p>
+
+        <p><strong>Director:</strong> Christopher Nolan</p>
+    </div>
+
+</section>
+
+<section class="review-section">
+
+    <h2>Movie Review</h2>
+
+    <div class="rating-box">
+        <h3>Our Rating</h3>
+        <p class="stars">★★★★★</p>
+        <p>5/5</p>
+    </div>
+
+    <div class="review">
+        <h3>Our Review</h3>
+        <p>
+            Inception is a clever science-fiction thriller that explores
+            dreams, reality, and the power of the human mind through a
+            complex and exciting story.
+        </p>
+    </div>
+
+    <div class="write-review">
+        <h3>Write a Review</h3>
+
+        <form id= "reviewForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="rating">Your Rating</label>
+            <select id="rating">
+                <option>★★★★★ - 5/5</option>
+                <option>★★★★☆ - 4/5</option>
+                <option>★★★☆☆ - 3/5</option>
+                <option>★★☆☆☆ - 2/5</option>
+                <option>★☆☆☆☆ - 1/5</option>
+            </select>
+
+            <label for="review">Your Review</label>
+            <textarea id="review" rows="5" placeholder="Write your review here..."></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+        <div id= "submittedReviews"></div>
+    </div>
+
+</section>
+
+<a href="movies.html" class="back-btn">← Back to Movies</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
